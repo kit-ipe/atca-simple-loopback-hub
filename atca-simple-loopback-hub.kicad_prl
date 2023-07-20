@@ -492,7 +492,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "atca_simple_hub.kicad_prl",
+    "filename": "atca-simple-loopback-hub.kicad_prl",
     "version": 3
   },
   "project": {

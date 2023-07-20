@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "atca_simple_hub.kicad_pro",
+    "filename": "atca-simple-loopback-hub.kicad_pro",
     "version": 1
   },
   "net_settings": {

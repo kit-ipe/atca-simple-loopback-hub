@@ -1132,7 +1132,7 @@
     (property "Value" "TE_64690XX-1_J22" (at 191.77 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KIT_Connector:TE_6469001-1" (at 191.77 57.15 0)
+    (property "Footprint" "project:TE_6469001-1" (at 191.77 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=6469001&DocType=Customer+Drawing&DocLang=English" (at 191.77 57.15 0)
@@ -1276,7 +1276,7 @@
     (instances
       (project "atca_simple_hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
-          (reference "J6") (unit 2)
+          (reference "J22") (unit 2)
         )
       )
     )
@@ -1291,7 +1291,7 @@
     (property "Value" "TE_64690XX-1_J22" (at 66.04 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KIT_Connector:TE_6469001-1" (at 66.04 135.89 0)
+    (property "Footprint" "project:TE_6469001-1" (at 66.04 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=6469001&DocType=Customer+Drawing&DocLang=English" (at 66.04 135.89 0)
@@ -1435,7 +1435,7 @@
     (instances
       (project "atca_simple_hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
-          (reference "J6") (unit 3)
+          (reference "J22") (unit 3)
         )
       )
     )
@@ -1450,7 +1450,7 @@
     (property "Value" "TE_64690XX-1_J22" (at 140.97 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KIT_Connector:TE_6469001-1" (at 140.97 135.89 0)
+    (property "Footprint" "project:TE_6469001-1" (at 140.97 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=6469001&DocType=Customer+Drawing&DocLang=English" (at 140.97 135.89 0)
@@ -1594,7 +1594,7 @@
     (instances
       (project "atca_simple_hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
-          (reference "J6") (unit 4)
+          (reference "J22") (unit 4)
         )
       )
     )
@@ -1609,7 +1609,7 @@
     (property "Value" "TE_64690XX-1_J22" (at 227.33 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KIT_Connector:TE_6469001-1" (at 227.33 135.89 0)
+    (property "Footprint" "project:TE_6469001-1" (at 227.33 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=6469001&DocType=Customer+Drawing&DocLang=English" (at 227.33 135.89 0)
@@ -1753,7 +1753,7 @@
     (instances
       (project "atca_simple_hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
-          (reference "J6") (unit 5)
+          (reference "J22") (unit 5)
         )
       )
     )
@@ -1793,7 +1793,7 @@
     (property "Value" "TE_64690XX-1_J22" (at 114.3 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KIT_Connector:TE_6469001-1" (at 114.3 57.15 0)
+    (property "Footprint" "project:TE_6469001-1" (at 114.3 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=6469001&DocType=Customer+Drawing&DocLang=English" (at 114.3 57.15 0)
@@ -1937,7 +1937,7 @@
     (instances
       (project "atca_simple_hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
-          (reference "J6") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )

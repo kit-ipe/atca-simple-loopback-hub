@@ -227,7 +227,7 @@
     (property "Value" "1766500-1" (at 154.94 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "KIT_Connector:TE_1766500-1" (at 144.78 92.71 0)
+    (property "Footprint" "project:TE_1766500-1" (at 144.78 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 144.78 92.71 0)

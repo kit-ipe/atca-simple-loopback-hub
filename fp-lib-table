@@ -26,4 +26,5 @@
   (lib (name "KIT_Switch")(type "KiCad")(uri "${KIT_LIBRARY}/modules/KIT_Switch.pretty")(options "")(descr ""))
   (lib (name "KIT_TestPoint")(type "KiCad")(uri "${KIT_LIBRARY}/modules/KIT_TestPoint.pretty")(options "")(descr ""))
   (lib (name "KIT_Transformer_SMD")(type "KiCad")(uri "${KIT_LIBRARY}/modules/KIT_Transformer_SMD.pretty")(options "")(descr ""))
+  (lib (name "project")(type "KiCad")(uri "${KIPRJMOD}/lib/project.pretty")(options "")(descr ""))
 )

@@ -214,7 +214,7 @@
   (no_connect (at 127 107.95) (uuid c7573539-f2fc-4ace-92e6-5925c8def5d8))
   (no_connect (at 127 110.49) (uuid d006eb35-0796-4da6-9a46-8013c8b3af00))
 
-  (text "Zone 1 \nConnector (P10)" (at 135.89 59.69 0)
+  (text "Zone 1 \nConnector (P10)" (at 129.54 55.88 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 6832e229-f0c4-44c8-b298-4de501c80ae3)
   )

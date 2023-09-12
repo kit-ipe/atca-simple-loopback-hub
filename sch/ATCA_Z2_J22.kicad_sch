@@ -1,17 +1,18 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 9c75167f-4c1c-476f-957b-de639d18cc21)
+  (uuid 1f432531-5414-4724-959d-6848d97b0123)
 
   (paper "A4")
 
   (title_block
-    (title "ATCA Template")
-    (date "2023-07-20")
+    (title "ATCA Simple Loopback HUB")
+    (date "2023-09-12")
     (rev "1.0")
     (company "Karlsruhe Institute of Technology (KIT)")
     (comment 1 "Institute for Data Processing and Electronics (IPE)")
     (comment 2 "Luis Ardila")
-    (comment 4 "Licensed under CERN-OHL-S-2.0")
+    (comment 3 "IPE-380-06")
+    (comment 4 "Licensed under CERN-OHL-P-2.0")
   )
 
   (lib_symbols
@@ -1076,7 +1077,7 @@
   (symbol (lib_id "power:GND") (at 212.09 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06736232-c480-4141-a749-e11def61cb74)
-    (property "Reference" "#PWR0731" (at 212.09 78.74 0)
+    (property "Reference" "#PWR046" (at 212.09 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 76.2 0)
@@ -1090,7 +1091,7 @@
     )
     (pin "1" (uuid 1da73a14-499e-40e0-a718-1244196cd456))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "#PWR046") (unit 1)
         )
@@ -1101,7 +1102,7 @@
   (symbol (lib_id "power:GND") (at 86.36 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ba6b242-b8ee-4f6b-b7ac-5fce6d421bf6)
-    (property "Reference" "#PWR0483" (at 86.36 157.48 0)
+    (property "Reference" "#PWR047" (at 86.36 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 154.94 0)
@@ -1115,7 +1116,7 @@
     )
     (pin "1" (uuid b579c7b3-0c99-4acb-8d3c-7c28b06a8223))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "#PWR047") (unit 1)
         )
@@ -1126,7 +1127,7 @@
   (symbol (lib_id "project:TE_64690XX-1_J22") (at 191.77 57.15 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70620069-fcdd-47f0-8679-d3c2a71958f1)
-    (property "Reference" "J11" (at 191.77 26.67 0)
+    (property "Reference" "J22" (at 191.77 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J22" (at 191.77 29.21 0)
@@ -1274,7 +1275,7 @@
     (pin "9H" (uuid d3962b03-926c-4583-83f3-e8bb8cdd082a))
     (pin "9HG" (uuid de0e0435-f7e0-4aac-857e-55ab65d6bfd2))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "J22") (unit 2)
         )
@@ -1285,7 +1286,7 @@
   (symbol (lib_id "project:TE_64690XX-1_J22") (at 66.04 135.89 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7334fbe5-2e69-4ceb-9828-724fd1bf659c)
-    (property "Reference" "J11" (at 66.04 105.41 0)
+    (property "Reference" "J22" (at 66.04 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J22" (at 66.04 107.95 0)
@@ -1433,7 +1434,7 @@
     (pin "9H" (uuid ecdaea2b-d225-499a-91be-66d14fe224de))
     (pin "9HG" (uuid 5545168c-4811-4508-9bc9-42518c94d5fb))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "J22") (unit 3)
         )
@@ -1444,7 +1445,7 @@
   (symbol (lib_id "project:TE_64690XX-1_J22") (at 140.97 135.89 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b098b1a-a2ab-4359-9def-1f017b4e3e6c)
-    (property "Reference" "J11" (at 140.97 105.41 0)
+    (property "Reference" "J22" (at 140.97 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J22" (at 140.97 107.95 0)
@@ -1592,7 +1593,7 @@
     (pin "9H" (uuid e8b4fb75-52fd-4ae3-98dc-b7285530f6df))
     (pin "9HG" (uuid cc53f16a-c759-4743-94f4-1e249211222d))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "J22") (unit 4)
         )
@@ -1603,7 +1604,7 @@
   (symbol (lib_id "project:TE_64690XX-1_J22") (at 227.33 135.89 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f320f67-3340-48b1-b726-d58bc7628caa)
-    (property "Reference" "J11" (at 227.33 105.41 0)
+    (property "Reference" "J22" (at 227.33 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J22" (at 227.33 107.95 0)
@@ -1751,7 +1752,7 @@
     (pin "9H" (uuid 151ecbcc-f03a-4bc6-bfdc-6639c3aad660))
     (pin "9HG" (uuid 6ce5f644-8f55-4bf4-8c18-22f3b099a391))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "J22") (unit 5)
         )
@@ -1762,7 +1763,7 @@
   (symbol (lib_id "power:GND") (at 161.29 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90ab62bc-106d-4e60-b93d-152f68a6faaa)
-    (property "Reference" "#PWR0730" (at 161.29 157.48 0)
+    (property "Reference" "#PWR048" (at 161.29 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 154.94 0)
@@ -1776,7 +1777,7 @@
     )
     (pin "1" (uuid 21c19755-be4b-4fc1-a705-2cf942d6c68c))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "#PWR048") (unit 1)
         )
@@ -1787,7 +1788,7 @@
   (symbol (lib_id "project:TE_64690XX-1_J22") (at 114.3 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b305c632-6640-428e-8c72-1f2af32ac197)
-    (property "Reference" "J11" (at 114.3 26.67 0)
+    (property "Reference" "J22" (at 114.3 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J22" (at 114.3 29.21 0)
@@ -1935,7 +1936,7 @@
     (pin "9H" (uuid f864c57b-57f6-4722-ab40-e1e343f30901))
     (pin "9HG" (uuid 16b7d9e3-433b-4385-8614-04e20c32f274))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "J22") (unit 1)
         )
@@ -1946,7 +1947,7 @@
   (symbol (lib_id "power:GND") (at 134.62 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0ad832c-d1cc-487d-aa52-ba8db94d9d2d)
-    (property "Reference" "#PWR0482" (at 134.62 78.74 0)
+    (property "Reference" "#PWR045" (at 134.62 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 76.2 0)
@@ -1960,7 +1961,7 @@
     )
     (pin "1" (uuid bd1d629e-8b4c-47d6-921a-8f5d976fd1fa))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "#PWR045") (unit 1)
         )
@@ -1971,7 +1972,7 @@
   (symbol (lib_id "power:GND") (at 247.65 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0dfd3c8-23d9-46a1-90e4-15ccd711640c)
-    (property "Reference" "#PWR0734" (at 247.65 157.48 0)
+    (property "Reference" "#PWR049" (at 247.65 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 154.94 0)
@@ -1985,7 +1986,7 @@
     )
     (pin "1" (uuid 2918f55c-cbfb-4ef4-a3f4-6ba10fb8bf28))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/d20dcbe2-daa0-42a8-9881-808161128fb1"
           (reference "#PWR049") (unit 1)
         )

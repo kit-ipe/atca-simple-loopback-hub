@@ -5,13 +5,14 @@
   (paper "A4")
 
   (title_block
-    (title "ATCA Template")
-    (date "2023-07-20")
+    (title "ATCA Simple Loopback HUB")
+    (date "2023-09-12")
     (rev "1.0")
     (company "Karlsruhe Institute of Technology (KIT)")
     (comment 1 "Institute for Data Processing and Electronics (IPE)")
     (comment 2 "Luis Ardila")
-    (comment 4 "Licensed under CERN-OHL-S-2.0")
+    (comment 3 "IPE-380-06")
+    (comment 4 "Licensed under CERN-OHL-P-2.0")
   )
 
   (lib_symbols
@@ -283,7 +284,7 @@
     (pin "8" (uuid 56a7a4f7-3cce-4589-927f-66196b03b646))
     (pin "9" (uuid 47f60639-5771-4c37-bfed-a86abe289ba3))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/248439bf-2e2f-4e24-b510-c03a1ea34b90"
           (reference "P10") (unit 1)
         )

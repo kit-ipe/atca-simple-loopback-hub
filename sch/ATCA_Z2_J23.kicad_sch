@@ -1,17 +1,18 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 9c75167f-4c1c-476f-957b-de639d18cc21)
+  (uuid 1d134a7d-9a74-48c8-8537-80f6be8df390)
 
   (paper "A4")
 
   (title_block
-    (title "ATCA Template")
-    (date "2023-07-20")
+    (title "ATCA Simple Loopback HUB")
+    (date "2023-09-12")
     (rev "1.0")
     (company "Karlsruhe Institute of Technology (KIT)")
     (comment 1 "Institute for Data Processing and Electronics (IPE)")
     (comment 2 "Luis Ardila")
-    (comment 4 "Licensed under CERN-OHL-S-2.0")
+    (comment 3 "IPE-380-06")
+    (comment 4 "Licensed under CERN-OHL-P-2.0")
   )
 
   (lib_symbols
@@ -3391,7 +3392,7 @@
   (symbol (lib_name "TE_64690XX-1_J23_1") (lib_id "KIT_Connector:TE_64690XX-1_J23") (at 125.73 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0df5a3ed-890c-49d6-8261-1bbf1e6ef4b1)
-    (property "Reference" "J12" (at 125.73 22.479 0)
+    (property "Reference" "J23" (at 125.73 22.479 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J23" (at 125.73 24.7904 0)
@@ -3539,7 +3540,7 @@
     (pin "9H" (uuid 6ed6c663-3149-4e19-8847-c134df15665f))
     (pin "9HG" (uuid f0d4b2d7-31e5-4f2a-a4bb-6daf7d05d805))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "J23") (unit 1)
         )
@@ -3550,7 +3551,7 @@
   (symbol (lib_name "TE_64690XX-1_J23_2") (lib_id "KIT_Connector:TE_64690XX-1_J23") (at 109.22 135.89 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 154b706d-ac73-4e5c-b488-23b4783efe34)
-    (property "Reference" "J12" (at 109.22 106.299 0)
+    (property "Reference" "J23" (at 109.22 106.299 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J23" (at 109.22 108.6104 0)
@@ -3698,7 +3699,7 @@
     (pin "9H" (uuid 2ba3baca-f146-4183-900c-dd3ad3c7c1f6))
     (pin "9HG" (uuid 732257ae-b10c-4e75-9c2c-5df9e0d3f22b))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "J23") (unit 3)
         )
@@ -3709,7 +3710,7 @@
   (symbol (lib_name "TE_64690XX-1_J23_4") (lib_id "KIT_Connector:TE_64690XX-1_J23") (at 198.12 135.89 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a224e97-dfe9-4729-9984-2d42b4b5cc9b)
-    (property "Reference" "J12" (at 198.12 106.299 0)
+    (property "Reference" "J23" (at 198.12 106.299 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J23" (at 198.12 108.6104 0)
@@ -3857,7 +3858,7 @@
     (pin "9H" (uuid 9d0a409f-47d7-4759-9d92-95e3b45e95aa))
     (pin "9HG" (uuid 04b9f44d-6425-447b-b368-05d71e5d4b75))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "J23") (unit 4)
         )
@@ -3868,7 +3869,7 @@
   (symbol (lib_id "power:GND") (at 215.9 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42201bc9-cc84-42a0-8e13-e9d20129d457)
-    (property "Reference" "#PWR0776" (at 215.9 73.66 0)
+    (property "Reference" "#PWR043" (at 215.9 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 71.12 0)
@@ -3882,7 +3883,7 @@
     )
     (pin "1" (uuid 98a296b3-da7d-478c-bae2-91b43811f058))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "#PWR043") (unit 1)
         )
@@ -3893,7 +3894,7 @@
   (symbol (lib_id "power:GND") (at 267.97 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ceb974f-fef8-490a-ac8a-aa40fe7415a7)
-    (property "Reference" "#PWR0855" (at 267.97 157.48 0)
+    (property "Reference" "#PWR044" (at 267.97 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 267.97 154.94 0)
@@ -3907,7 +3908,7 @@
     )
     (pin "1" (uuid 9f766f3a-2845-49ee-b4d8-f5f80095ab38))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "#PWR044") (unit 1)
         )
@@ -3918,7 +3919,7 @@
   (symbol (lib_id "KIT_Connector:TE_64690XX-1_J23") (at 247.65 135.89 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77268283-6dcb-4785-9a80-771d3e242a3c)
-    (property "Reference" "J12" (at 247.65 106.299 0)
+    (property "Reference" "J23" (at 247.65 106.299 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J23" (at 247.65 108.6104 0)
@@ -4066,7 +4067,7 @@
     (pin "9H" (uuid 769c5838-7fa9-4b95-b02e-51334632f78d))
     (pin "9HG" (uuid 67f61718-e221-46a0-8412-87afd91b4208))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "J23") (unit 5)
         )
@@ -4077,7 +4078,7 @@
   (symbol (lib_name "TE_64690XX-1_J23_3") (lib_id "KIT_Connector:TE_64690XX-1_J23") (at 195.58 52.07 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a38132fb-0a89-4cb5-925e-06a432d2244a)
-    (property "Reference" "J12" (at 195.58 22.479 0)
+    (property "Reference" "J23" (at 195.58 22.479 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TE_64690XX-1_J23" (at 195.58 24.7904 0)
@@ -4225,7 +4226,7 @@
     (pin "9H" (uuid c17523a6-6905-46ff-8fee-e0064a167ee9))
     (pin "9HG" (uuid 01383ab3-f30a-4655-b3b6-49bcf46a7b8d))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "J23") (unit 2)
         )
@@ -4236,7 +4237,7 @@
   (symbol (lib_id "power:GND") (at 218.44 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e67aaad6-de8e-4a6c-8423-b41934beea05)
-    (property "Reference" "#PWR0778" (at 218.44 157.48 0)
+    (property "Reference" "#PWR042" (at 218.44 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.44 154.94 0)
@@ -4250,7 +4251,7 @@
     )
     (pin "1" (uuid 062a6ded-8d09-4c42-bfdc-16f26d896087))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "#PWR042") (unit 1)
         )
@@ -4261,7 +4262,7 @@
   (symbol (lib_id "power:GND") (at 146.05 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea2f9321-3bc0-4cb8-90c5-63c52755cb07)
-    (property "Reference" "#PWR0779" (at 146.05 73.66 0)
+    (property "Reference" "#PWR026" (at 146.05 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 71.12 0)
@@ -4275,7 +4276,7 @@
     )
     (pin "1" (uuid 088ef6f8-b919-48d2-bbbb-1104bc9fcf9a))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "#PWR026") (unit 1)
         )
@@ -4286,7 +4287,7 @@
   (symbol (lib_id "power:GND") (at 129.54 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa3f3d63-a7ac-4b1b-9d36-cc025098bc07)
-    (property "Reference" "#PWR0856" (at 129.54 157.48 0)
+    (property "Reference" "#PWR041" (at 129.54 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 154.94 0)
@@ -4300,7 +4301,7 @@
     )
     (pin "1" (uuid da2daa25-5855-471a-a763-191176b10d29))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/721cf5b7-470b-44a1-8f61-80b0cd462786"
           (reference "#PWR041") (unit 1)
         )

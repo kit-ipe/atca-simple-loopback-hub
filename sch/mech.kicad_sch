@@ -5,13 +5,14 @@
   (paper "A4")
 
   (title_block
-    (title "ATCA Template")
-    (date "2023-07-20")
+    (title "ATCA Simple Loopback HUB")
+    (date "2023-09-12")
     (rev "1.0")
     (company "Karlsruhe Institute of Technology (KIT)")
     (comment 1 "Institute for Data Processing and Electronics (IPE)")
     (comment 2 "Luis Ardila")
-    (comment 4 "Licensed under CERN-OHL-S-2.0")
+    (comment 3 "IPE-380-06")
+    (comment 4 "Licensed under CERN-OHL-P-2.0")
   )
 
   (lib_symbols
@@ -456,7 +457,7 @@
     )
     (pin "1" (uuid d28690a0-ffd2-470e-b495-e401d9d8a1d7))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "#PWR011") (unit 1)
         )
@@ -491,7 +492,7 @@
     (pin "1" (uuid 62203ccb-98d4-4e39-85f3-5b0c0bdd1304))
     (pin "2" (uuid ed3ae924-f69a-4fcc-a11f-ef5f5d9ee2ed))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "R5") (unit 1)
         )
@@ -518,7 +519,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "H3") (unit 1)
         )
@@ -545,7 +546,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "H4") (unit 1)
         )
@@ -584,7 +585,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "K2") (unit 1)
         )
@@ -611,7 +612,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "H5") (unit 1)
         )
@@ -646,7 +647,7 @@
     (pin "1" (uuid adc48fd8-5617-4884-a1f9-16ea0533352d))
     (pin "2" (uuid ae5de53c-acb6-4e58-b5a7-e94d52dfe4b0))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "R4") (unit 1)
         )
@@ -676,7 +677,7 @@
     (pin "2" (uuid 98ae7067-2c20-45e6-948e-ae05bf6486bc))
     (pin "3" (uuid 7a5bd0ef-081b-4563-8325-53762eb35987))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "J3") (unit 1)
         )
@@ -701,7 +702,7 @@
     )
     (pin "1" (uuid 35b8422c-11af-44a8-a4e9-7ae663f18b75))
     (instances
-      (project "atca_simple_hub"
+      (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
           (reference "#PWR013") (unit 1)
         )

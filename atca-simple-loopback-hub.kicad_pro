@@ -1824,6 +1824,18 @@
     [
       "9c66bb85-f11b-42a4-b8f0-ea5e834ff554",
       "ETH_Mag_Jacks"
+    ],
+    [
+      "68f44824-ac8a-44a0-acb0-fcd88fd7413a",
+      "LHC_CLK_HQ"
+    ],
+    [
+      "27ed03af-1cf9-4b9e-a689-cf8a8e5d5b83",
+      "LHC_CLK"
+    ],
+    [
+      "fb412a1e-4559-467d-a086-1273218e2f6f",
+      "SFP+"
     ]
   ],
   "text_variables": {}

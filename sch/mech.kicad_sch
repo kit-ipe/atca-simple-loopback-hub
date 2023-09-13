@@ -468,10 +468,10 @@
   (symbol (lib_id "project:R") (at 166.37 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3930f607-2593-4133-bcc8-bcd508e7af63)
-    (property "Reference" "R5" (at 168.91 134.6199 0)
+    (property "Reference" "R12" (at 168.91 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10M 2kV" (at 168.91 137.1599 0)
+    (property "Value" "10M 2kV" (at 168.91 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_2010_5025Metric" (at 164.592 135.89 90)
@@ -494,7 +494,7 @@
     (instances
       (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
-          (reference "R5") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -623,7 +623,7 @@
   (symbol (lib_id "project:R") (at 162.56 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8be5aef6-79ff-4c7e-bbff-f57f0f75a46f)
-    (property "Reference" "R4" (at 162.56 106.68 90)
+    (property "Reference" "R11" (at 162.56 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10M 2kV" (at 162.56 109.22 90)
@@ -649,7 +649,7 @@
     (instances
       (project "atca-simple-loopback-hub"
         (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
-          (reference "R4") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )

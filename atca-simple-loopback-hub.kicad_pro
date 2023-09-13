@@ -683,7 +683,7 @@
       "version": 3
     },
     "net_colors": {
-      "unconnected-(J20E-TX3[13]--Pad9F)": "rgb(255, 255, 255)"
+      "/Z2_FI3.10GbE_RX_N": "rgb(255, 255, 255)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [

@@ -2507,7 +2507,7 @@
     (effects (font (size 0.5 0.5)) (justify left bottom))
     (uuid cd8b0db6-e9ec-4a9e-bc94-dc70045769e1)
   )
-  (label "Z2_FI3.TCDS2_RX_P" (at 209.55 121.92 0) (fields_autoplaced)
+  (label "Z2_FI3.TCDS2_RX_N" (at 209.55 121.92 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d0d8d780-b8ee-45aa-ac03-a6de531838df)
   )

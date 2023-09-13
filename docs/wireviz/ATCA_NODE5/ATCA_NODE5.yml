@@ -1,0 +1,53 @@
+connectors:
+  Slot1-FC4: &template-FC-HUB
+    type: HUB
+    pincount: 8
+    pins: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    pinlabels: [RFSoC_AXI_C2C_TX, RFSoC_AXI_C2C_RX, HUB_CLK_OUT, HUB_CLK_IN, RFSoC_LVDS0_TX, RFSoC_LVDS0_RX, RFSoC_LVDS1_TX, RFSoC_LVDS1_RX]
+  Slot2-FC4:
+    <<: *template-FC-HUB
+  Slot3-FC4:
+    <<: *template-FC-HUB
+  Slot4-FC4:
+    <<: *template-FC-HUB
+  Slot5-FC1: &template-FC-NODE
+    type: NODE
+    pincount: 8
+    pins: [ Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    pinlabels: [FPGA_AXI_C2C_TX, FPGA_AXI_C2C_RX, NODE_CLK_OUT, NODE_CLK_IN, FPGA_LVDS0_TX, FPGA_LVDS0_RX, FPGA_LVDS1_TX, FPGA_LVDS1_RX]
+  Slot5-FC2:
+    <<: *template-FC-NODE
+  Slot5-FC3:
+    <<: *template-FC-NODE
+  Slot5-FC4:
+    <<: *template-FC-NODE
+
+cables:
+  Backplane-Slot-1-5: &template-FC-BP
+    wirecount: 8
+    color_code: DIN
+  Backplane-Slot-2-5: 
+    <<: *template-FC-BP
+  Backplane-Slot-3-5: 
+    <<: *template-FC-BP
+  Backplane-Slot-4-5: 
+    <<: *template-FC-BP
+    
+  
+connections:
+  -
+    - Slot1-FC4: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-1-5: [1-8]
+    - Slot5-FC1: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX] 
+  -
+    - Slot2-FC4: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-5: [1-8]
+    - Slot5-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]  
+  -
+    - Slot3-FC4: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-3-5: [1-8]
+    - Slot5-FC3: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]  
+  -
+    - Slot4-FC4: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-4-5: [1-8]
+    - Slot5-FC4: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX] 

@@ -1,0 +1,115 @@
+connectors:
+  Slot2-FC4: &template-FC-HUB
+    type: HUB
+    pincount: 8
+    pins: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    pinlabels: [RFSoC_AXI_C2C_TX, RFSoC_AXI_C2C_RX, HUB_CLK_OUT, HUB_CLK_IN, RFSoC_LVDS0_TX, RFSoC_LVDS0_RX, RFSoC_LVDS1_TX, RFSoC_LVDS1_RX]
+  Slot2-FC5:
+    <<: *template-FC-HUB
+  Slot2-FC6:
+    <<: *template-FC-HUB
+  Slot2-FC7:
+    <<: *template-FC-HUB
+  Slot2-FC8:
+    <<: *template-FC-HUB
+  Slot2-FC9:
+    <<: *template-FC-HUB
+  Slot2-FC10:
+    <<: *template-FC-HUB
+  Slot2-FC11:
+    <<: *template-FC-HUB
+  Slot2-FC12:
+    <<: *template-FC-HUB
+  Slot2-FC13:
+    <<: *template-FC-HUB
+    
+  Slot5-FC2: &template-FC-NODE
+    type: NODE
+    pincount: 8
+    pins: [ Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    pinlabels: [FPGA_AXI_C2C_TX, FPGA_AXI_C2C_RX, NODE_CLK_OUT, NODE_CLK_IN, FPGA_LVDS0_TX, FPGA_LVDS0_RX, FPGA_LVDS1_TX, FPGA_LVDS1_RX]
+  Slot6-FC2:
+    <<: *template-FC-NODE
+  Slot7-FC2:
+    <<: *template-FC-NODE
+  Slot8-FC2:
+    <<: *template-FC-NODE
+  Slot9-FC2:
+    <<: *template-FC-NODE
+  Slot10-FC2:
+    <<: *template-FC-NODE
+  Slot11-FC2:
+    <<: *template-FC-NODE
+  Slot12-FC2:
+    <<: *template-FC-NODE
+  Slot13-FC2:
+    <<: *template-FC-NODE
+  Slot14-FC2:
+    <<: *template-FC-NODE
+
+cables:
+  Backplane-Slot-2-5: &template-FC-BP
+    wirecount: 8
+    color_code: DIN
+  Backplane-Slot-2-6: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-7: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-8: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-9: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-10: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-11: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-12: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-13: 
+    <<: *template-FC-BP
+  Backplane-Slot-2-14: 
+    <<: *template-FC-BP
+  
+    
+  
+connections:
+  -
+    - Slot2-FC4: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-5: [1-8]
+    - Slot5-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX] 
+  -
+    - Slot2-FC5: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-6: [1-8]
+    - Slot6-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]  
+  -
+    - Slot2-FC6: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-7: [1-8]
+    - Slot7-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]  
+  -
+    - Slot2-FC7: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-8: [1-8]
+    - Slot8-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]   
+  -
+    - Slot2-FC8: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-9: [1-8]
+    - Slot9-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]   
+  -
+    - Slot2-FC9: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-10: [1-8]
+    - Slot10-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]   
+  -
+    - Slot2-FC10: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-11: [1-8]
+    - Slot11-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]   
+  -
+    - Slot2-FC11: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-12: [1-8]
+    - Slot12-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]   
+  -
+    - Slot2-FC12: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-13: [1-8]
+    - Slot13-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX]   
+  -
+    - Slot2-FC13: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-2-14: [1-8]
+    - Slot14-FC2: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX] 

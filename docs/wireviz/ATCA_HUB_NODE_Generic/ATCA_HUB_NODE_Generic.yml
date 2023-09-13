@@ -1,0 +1,26 @@
+connectors:
+  Slot{1-2}-FC{2-13}: &template-FC-HUB
+    type: HUB
+    pincount: 8
+    pins: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    pinlabels: [RFSoC_AXI_C2C_TX, RFSoC_AXI_C2C_RX, HUB_CLK_OUT, HUB_CLK_IN, RFSoC_LVDS0_TX, RFSoC_LVDS0_RX, RFSoC_LVDS1_TX, RFSoC_LVDS1_RX]
+  
+  Slot{5-14}-FC{1-4}: &template-FC-NODE
+    type: NODE
+    pincount: 8
+    pins: [ Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    pinlabels: [FPGA_AXI_C2C_TX, FPGA_AXI_C2C_RX, NODE_CLK_OUT, NODE_CLK_IN, FPGA_LVDS0_TX, FPGA_LVDS0_RX, FPGA_LVDS1_TX, FPGA_LVDS1_RX]
+
+
+cables:
+  Backplane-Slot-{1-4}-{5-14}: &template-FC-BP
+    wirecount: 8
+    color_code: DIN
+    
+  
+connections:
+  -
+    - Slot{1-4}-FC{4-13}: [Port0-TX, Port0-RX, Port1-TX, Port1-RX, Port2-TX, Port2-RX, Port3-TX, Port3-RX]
+    - Backplane-Slot-{1-4}-{5-14}: [1-8]
+    - Slot{5-14}-FC{1-4}: [Port0-RX, Port0-TX, Port1-RX, Port1-TX, Port2-RX, Port2-TX, Port3-RX, Port3-TX] 
+

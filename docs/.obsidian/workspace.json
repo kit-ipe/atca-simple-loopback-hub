@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e73b07e05dcacfa6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "datasheets/TE_2007263-1.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "datasheets/TE_2007263-1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "datasheets/TE_2007263-1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "datasheets/TE_2007263-1.pdf"
               }
             }
           }
@@ -159,32 +169,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29a22b97a325d81b",
+  "active": "e73b07e05dcacfa6",
   "lastOpenFiles": [
-    "datasheets/SFF-8432-R5.2a-1.pdf",
-    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
-    "datasheets/10g-sfp+-aoc.pdf",
-    "datasheets/ENG_DS_GENERIC_PASSIVE_SFP+_C.pdf",
-    "datasheets/TE_2007262.pdf",
+    "datasheets/TE_ENG_SS_114-13120_L.pdf",
     "datasheets/TE_1888247.pdf",
-    "datasheets/MOLEX_987650-2211.PDF",
-    "datasheets/MOLEX_747540001-PS1.pdf",
-    "datasheets/MOLEX_AS-74441-001-001.pdf",
-    "datasheets/MOLEX_AS-74754-001-001.pdf",
-    "datasheets/TE_ENG_DS_4-1773449-5_1108.pdf",
+    "datasheets/TE_2007262.pdf",
+    "datasheets/TE_2007263-1.pdf",
+    "README.md",
+    "Raspberry Pi Pico.md",
+    "Overview.md",
+    "wireviz/README.md",
     "wireviz/ATCA_NODE5/ATCA_NODE5.svg",
     "wireviz/ATCA_NODE5/ATCA_NODE5.png",
     "wireviz/ATCA_HUB2/ATCA_HUB2.svg",
     "wireviz/ATCA_HUB2/ATCA_HUB2.png",
     "wireviz/ATCA_HUB_NODE_Generic/ATCA_HUB_NODE_Generic.svg",
     "wireviz/ATCA_HUB_NODE_Generic/ATCA_HUB_NODE_Generic.png",
-    "images/14_Slot_Crate.png",
     "images/6_Slot_Crate.png",
-    "images/14Slot_Crate.png",
-    "images/Screenshot from 2023-09-13 09-53-16.png",
-    "wireviz/README.md",
-    "Overview.md",
-    "README.md",
+    "images/14_Slot_Crate.png",
+    "images/raspberry_pi_Pico-R3-Pinout-narrow.png",
+    "Pasted image 20230914111802.png",
+    "datasheets/BEL-MAG-1GBase-T-100W-4-pair-power-over-ethernet.pdf",
+    "datasheets/ds-MAG-1GBase-T-100W-4-pair-power-over-ethernet.pdf",
+    "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf",
+    "datasheets/dr-MAG-0826-1X4T-HS-F.pdf",
+    "datasheets/SFF-8432-R5.2a-1.pdf",
+    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
+    "datasheets/10g-sfp+-aoc.pdf",
     "Untitled.canvas"
   ]
 }

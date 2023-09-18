@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "project")(type "KiCad")(uri "${KIPRJMOD}/lib/project.kicad_sym")(options "")(descr ""))
-  (lib (name "si5395")(type "KiCad")(uri "/home/lardilap/Downloads/si5395.kicad_sym")(options "")(descr ""))
 )

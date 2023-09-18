@@ -219,4 +219,9 @@
       )
     )
   )
+  (model "${KIPRJMOD}/lib/3DModels/BEL_0826-1X4T-HS-F.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

@@ -35,14 +35,26 @@
             "id": "e73b07e05dcacfa6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "datasheets/TE_2007263-1.pdf"
+                "file": "images/power-oring.png"
+              }
+            }
+          },
+          {
+            "id": "b1e8636d6bac858d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Raspberry Pi Pico.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "datasheets/TE_2007263-1.pdf",
+                "file": "Raspberry Pi Pico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "datasheets/TE_2007263-1.pdf",
+                "file": "Raspberry Pi Pico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "datasheets/TE_2007263-1.pdf"
+                "file": "Raspberry Pi Pico.md"
               }
             }
           }
@@ -169,33 +181,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e73b07e05dcacfa6",
+  "active": "b1e8636d6bac858d",
   "lastOpenFiles": [
+    "datasheets/DMG2305UX.pdf",
+    "Overview.md",
+    "images/raspberry_pi_Pico-R3-Pinout-narrow.png",
+    "images/14_Slot_Crate.png",
+    "images/6_Slot_Crate.png",
+    "images/power-oring.png",
+    "images/power-oring-diodes.png",
+    "images/power-oring-neg.png",
+    "Raspberry Pi Pico.md",
+    "wireviz/README.md",
+    "README.md",
+    "datasheets/CUI_PDQE20-d.pdf",
+    "datasheets/PICOR_QPI-21L.pdf",
+    "datasheets/Murata_SPM15.pdf",
+    "datasheets/LTC4354.pdf",
+    "datasheets/LTC4355.pdf",
+    "images/Screenshot from 2023-09-19 17-58-14.png",
+    "images/Screenshot from 2023-09-19 17-52-27.png",
+    "images/Screenshot from 2023-09-19 17-51-50.png",
+    "images/power_oring.png",
+    "datasheets/TE_2007263-1.pdf",
     "datasheets/TE_ENG_SS_114-13120_L.pdf",
     "datasheets/TE_1888247.pdf",
     "datasheets/TE_2007262.pdf",
-    "datasheets/TE_2007263-1.pdf",
-    "README.md",
-    "Raspberry Pi Pico.md",
-    "Overview.md",
-    "wireviz/README.md",
-    "wireviz/ATCA_NODE5/ATCA_NODE5.svg",
-    "wireviz/ATCA_NODE5/ATCA_NODE5.png",
-    "wireviz/ATCA_HUB2/ATCA_HUB2.svg",
-    "wireviz/ATCA_HUB2/ATCA_HUB2.png",
-    "wireviz/ATCA_HUB_NODE_Generic/ATCA_HUB_NODE_Generic.svg",
-    "wireviz/ATCA_HUB_NODE_Generic/ATCA_HUB_NODE_Generic.png",
-    "images/6_Slot_Crate.png",
-    "images/14_Slot_Crate.png",
-    "images/raspberry_pi_Pico-R3-Pinout-narrow.png",
-    "Pasted image 20230914111802.png",
     "datasheets/BEL-MAG-1GBase-T-100W-4-pair-power-over-ethernet.pdf",
-    "datasheets/ds-MAG-1GBase-T-100W-4-pair-power-over-ethernet.pdf",
-    "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf",
-    "datasheets/dr-MAG-0826-1X4T-HS-F.pdf",
-    "datasheets/SFF-8432-R5.2a-1.pdf",
-    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
-    "datasheets/10g-sfp+-aoc.pdf",
     "Untitled.canvas"
   ]
 }

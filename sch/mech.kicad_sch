@@ -6,7 +6,7 @@
 
   (title_block
     (title "ATCA Simple Loopback HUB")
-    (date "2023-09-12")
+    (date "2023-09-26")
     (rev "1.0")
     (company "Karlsruhe Institute of Technology (KIT)")
     (comment 1 "Institute for Data Processing and Electronics (IPE)")
@@ -430,6 +430,16 @@
     (stroke (width 0) (type default))
     (uuid d58e52ad-f70a-4380-973b-6fbe7713379f)
   )
+  (wire (pts (xy 127 116.84) (xy 127 118.11))
+    (stroke (width 0) (type default))
+    (uuid f572ea99-7307-457c-b1c3-c53a13d64770)
+  )
+
+  (text "add other KEY and standard mounting holes\nadd front panel\n"
+    (at 76.2 41.91 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid 6f8af661-eda4-484a-94fe-0179a5fdc6c4)
+  )
 
   (label "ESD2" (at 166.37 129.54 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -438,31 +448,6 @@
   (label "ESD1" (at 168.91 118.11 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 398b871c-152b-4dc5-bc6a-b155e5064ce1)
-  )
-
-  (symbol (lib_id "power:GNDPWR") (at 127 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 342ff129-d78a-458a-9c95-c5f47cbd3d2f)
-    (property "Reference" "#PWR011" (at 127 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "~" (at 127.1016 120.7516 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d28690a0-ffd2-470e-b495-e401d9d8a1d7))
-    (instances
-      (project "atca-simple-loopback-hub"
-        (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-    )
   )
 
   (symbol (lib_id "project:R") (at 166.37 135.89 0) (unit 1)
@@ -655,13 +640,38 @@
     )
   )
 
+  (symbol (lib_id "power:GNDPWR") (at 127 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 910ef5d6-e819-4503-8606-3cbbe945e135)
+    (property "Reference" "#PWR074" (at 127 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 126.873 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 127 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 127 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eb00030a-9d2f-432c-9d8b-728d0fdb1fb7))
+    (instances
+      (project "atca-simple-loopback-hub"
+        (path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "project:FBA_ESD_strip_bottom") (at 162.56 123.19 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d90156ce-5aa2-466f-a8ac-2da74f3a1b24)
     (property "Reference" "J3" (at 140.97 123.19 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "ESD_strip_bottom" (at 140.97 125.73 0)
+    (property "Value" "ESD_strip_bottom" (at 156.21 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "project:ESD_strip_bottom" (at 162.56 123.19 0)

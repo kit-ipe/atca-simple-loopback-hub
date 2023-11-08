@@ -1,5 +1,6 @@
 # autosave
 *~
+_autosave*
 
 # export files for BOM
 *.tsv
@@ -23,3 +24,7 @@ info/
 # libreoffice lock files
 *~lock*
 *auto_saved_files*
+
+# zip files
+*.zip
+

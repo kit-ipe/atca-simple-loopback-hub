@@ -6345,7 +6345,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 114.3 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0c1fc0b9-1492-4e2d-ac58-4b65a620e9ec)
     (property "Reference" "R7" (at 116.84 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6377,7 +6377,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 127 140.97 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0dc9a1d6-a719-4cca-bd3d-73cdd5dddc9b)
     (property "Reference" "R17" (at 129.54 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6576,7 +6576,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 124.46 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 48754cd9-b379-4762-b6bf-5b63f9afb07f)
     (property "Reference" "R8" (at 127 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7071,7 +7071,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 109.22 140.97 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid a56dd5b0-2aba-4ea1-afc4-d55e269c94fa)
     (property "Reference" "R19" (at 111.76 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))

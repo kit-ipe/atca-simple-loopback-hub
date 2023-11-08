@@ -52,9 +52,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a2f4a5b4ace71a59",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "datasheets/10g-sfp+-aoc.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raspberry Pi Pico.md",
+                "file": "datasheets/10g-sfp+-aoc.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raspberry Pi Pico.md",
+                "file": "datasheets/10g-sfp+-aoc.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raspberry Pi Pico.md"
+                "file": "datasheets/10g-sfp+-aoc.pdf"
               }
             }
           }
@@ -181,9 +191,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1e8636d6bac858d",
+  "active": "a2f4a5b4ace71a59",
   "lastOpenFiles": [
-    "datasheets/DMG2305UX.pdf",
+    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
+    "datasheets/VICOR_QPI-21L.pdf",
+    "datasheets/TE_ENG_SS_114-13120_L.pdf",
+    "datasheets/TE_ENG_SS_114-13017_D.pdf",
+    "datasheets/TE_ENG_DS_4-1773449-5_1108.pdf",
+    "datasheets/TE_2007263-1.pdf",
+    "datasheets/TE_2007262.pdf",
+    "datasheets/TE_1888247.pdf",
+    "datasheets/SMBJ5338B-SMBJ5388B(SMB).pdf",
+    "datasheets/SKYWORKS_SI5395-94-92.pdf",
+    "datasheets/SFF-8432-R5.2a-1.pdf",
+    "Raspberry Pi Pico.md",
+    "README.md",
     "Overview.md",
     "images/raspberry_pi_Pico-R3-Pinout-narrow.png",
     "images/14_Slot_Crate.png",
@@ -191,23 +213,11 @@
     "images/power-oring.png",
     "images/power-oring-diodes.png",
     "images/power-oring-neg.png",
-    "Raspberry Pi Pico.md",
     "wireviz/README.md",
-    "README.md",
-    "datasheets/CUI_PDQE20-d.pdf",
-    "datasheets/PICOR_QPI-21L.pdf",
-    "datasheets/Murata_SPM15.pdf",
-    "datasheets/LTC4354.pdf",
-    "datasheets/LTC4355.pdf",
     "images/Screenshot from 2023-09-19 17-58-14.png",
     "images/Screenshot from 2023-09-19 17-52-27.png",
     "images/Screenshot from 2023-09-19 17-51-50.png",
     "images/power_oring.png",
-    "datasheets/TE_2007263-1.pdf",
-    "datasheets/TE_ENG_SS_114-13120_L.pdf",
-    "datasheets/TE_1888247.pdf",
-    "datasheets/TE_2007262.pdf",
-    "datasheets/BEL-MAG-1GBase-T-100W-4-pair-power-over-ethernet.pdf",
     "Untitled.canvas"
   ]
 }

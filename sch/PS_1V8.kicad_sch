@@ -545,7 +545,7 @@
     (property "Value" "Net-Tie_2" (at 177.8 89.154 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "KIT_NetTie:NetTie-2_SMD_Pad0.2mm" (at 177.8 91.44 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 177.8 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.8 91.44 0)

@@ -59,7 +59,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "datasheets/10g-sfp+-aoc.pdf"
+                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf"
               }
             }
           }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "datasheets/10g-sfp+-aoc.pdf",
+                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "datasheets/10g-sfp+-aoc.pdf",
+                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "datasheets/10g-sfp+-aoc.pdf"
+                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf"
               }
             }
           }
@@ -193,31 +193,31 @@
   },
   "active": "a2f4a5b4ace71a59",
   "lastOpenFiles": [
-    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
-    "datasheets/VICOR_QPI-21L.pdf",
-    "datasheets/TE_ENG_SS_114-13120_L.pdf",
+    "datasheets/DMG2305UX.pdf",
+    "datasheets/CUI_PDQE20-d.pdf",
+    "datasheets/ENG_DS_GENERIC_PASSIVE_SFP+_C.pdf",
+    "datasheets/MOLEX_0747540220-drawing.pdf",
+    "datasheets/MOLEX_AS-74441-001-001.pdf",
+    "datasheets/MOLEX_AS-74754-001-001.pdf",
     "datasheets/TE_ENG_SS_114-13017_D.pdf",
-    "datasheets/TE_ENG_DS_4-1773449-5_1108.pdf",
-    "datasheets/TE_2007263-1.pdf",
-    "datasheets/TE_2007262.pdf",
-    "datasheets/TE_1888247.pdf",
-    "datasheets/SMBJ5338B-SMBJ5388B(SMB).pdf",
-    "datasheets/SKYWORKS_SI5395-94-92.pdf",
-    "datasheets/SFF-8432-R5.2a-1.pdf",
-    "Raspberry Pi Pico.md",
-    "README.md",
-    "Overview.md",
+    "datasheets/TE_ENG_SS_114-13120_L.pdf",
+    "datasheets/VICOR_QPI-21L.pdf",
+    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
+    "drawio/Overview_Alt.drawio.svg",
+    "drawio/ATCA-Crate-14Slots-CMS.drawio.svg",
+    "drawio/ATCA-Crate-6Slots.drawio.svg",
+    "drawio/6-Slot_Crate_loopback_HUB_Slot.drawio.svg",
     "images/raspberry_pi_Pico-R3-Pinout-narrow.png",
+    "images/power-oring-neg.png",
+    "images/power-oring-diodes.png",
+    "images/power-oring.png",
     "images/14_Slot_Crate.png",
     "images/6_Slot_Crate.png",
-    "images/power-oring.png",
-    "images/power-oring-diodes.png",
-    "images/power-oring-neg.png",
+    "Raspberry Pi Pico.md",
+    "Overview.md",
+    "datasheets/10g-sfp+-aoc.pdf",
+    "README.md",
     "wireviz/README.md",
-    "images/Screenshot from 2023-09-19 17-58-14.png",
-    "images/Screenshot from 2023-09-19 17-52-27.png",
-    "images/Screenshot from 2023-09-19 17-51-50.png",
-    "images/power_oring.png",
     "Untitled.canvas"
   ]
 }

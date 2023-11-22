@@ -1071,11 +1071,6 @@
     (uuid fa246bdb-85bd-4d32-a6f9-3d756d417e14)
   )
 
-  (text "add other KEY and standard mounting holes\nadd front panel\n"
-    (at 72.39 -2.54 0)
-    (effects (font (size 5 5)) (justify left bottom))
-    (uuid 6f8af661-eda4-484a-94fe-0179a5fdc6c4)
-  )
   (text "Insert: 3V3 -> GND\nRemove: GND -> 3V3" (at 106.68 146.05 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fde74273-1330-4500-bed9-99705bec5599)

@@ -11,11 +11,9 @@
             "id": "a0d7f2009352a8f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Overview.md",
-                "mode": "source",
-                "source": false
+                "file": "datasheets/pico-datasheet.pdf"
               }
             }
           },
@@ -59,7 +57,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf"
+                "file": "datasheets/SFF-8431.PDF"
               }
             }
           }
@@ -130,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf",
+                "file": "datasheets/SFF-8431.PDF",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf",
+                "file": "datasheets/SFF-8431.PDF",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf"
+                "file": "datasheets/SFF-8431.PDF"
               }
             }
           }
@@ -193,16 +191,20 @@
   },
   "active": "a2f4a5b4ace71a59",
   "lastOpenFiles": [
+    "Raspberry Pi Pico.md",
+    "images/power-oring.png",
+    "datasheets/pico-datasheet.pdf",
+    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
+    "datasheets/SFF-8431.PDF",
+    "datasheets/BEL_dr-MAG-0826-1X4T-HS-F.pdf",
+    "datasheets/10g-sfp+-aoc.pdf",
+    "datasheets/TE_1888247.pdf",
+    "Overview.md",
+    "README.md",
+    "datasheets/SFF-8432-R5.2a-1.pdf",
+    "datasheets/SKYWORKS_SI5395-94-92.pdf",
     "datasheets/DMG2305UX.pdf",
     "datasheets/CUI_PDQE20-d.pdf",
-    "datasheets/ENG_DS_GENERIC_PASSIVE_SFP+_C.pdf",
-    "datasheets/MOLEX_0747540220-drawing.pdf",
-    "datasheets/MOLEX_AS-74441-001-001.pdf",
-    "datasheets/MOLEX_AS-74754-001-001.pdf",
-    "datasheets/TE_ENG_SS_114-13017_D.pdf",
-    "datasheets/TE_ENG_SS_114-13120_L.pdf",
-    "datasheets/VICOR_QPI-21L.pdf",
-    "datasheets/ZeeVee-10G-SFP-Passive-Copper-Cable-Datasheet.pdf",
     "drawio/Overview_Alt.drawio.svg",
     "drawio/ATCA-Crate-14Slots-CMS.drawio.svg",
     "drawio/ATCA-Crate-6Slots.drawio.svg",
@@ -210,13 +212,8 @@
     "images/raspberry_pi_Pico-R3-Pinout-narrow.png",
     "images/power-oring-neg.png",
     "images/power-oring-diodes.png",
-    "images/power-oring.png",
     "images/14_Slot_Crate.png",
     "images/6_Slot_Crate.png",
-    "Raspberry Pi Pico.md",
-    "Overview.md",
-    "datasheets/10g-sfp+-aoc.pdf",
-    "README.md",
     "wireviz/README.md",
     "Untitled.canvas"
   ]

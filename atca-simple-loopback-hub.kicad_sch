@@ -6,12 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "ATCA Simple Loopback HUB")
-		(date "2023-09-26")
+		(date "2024-09-04")
 		(rev "1.0")
 		(company "Karlsruhe Institute of Technology (KIT)")
 		(comment 1 "Institute for Data Processing and Electronics (IPE)")
-		(comment 2 "Luis Ardila")
-		(comment 3 "IPE-380-06")
+		(comment 2 "Luis Ardila-Perez")
+		(comment 3 "IPE-380-06-V1")
 		(comment 4 "Licensed under CERN-OHL-P-2.0")
 	)
 	(lib_symbols
@@ -2909,6 +2909,7 @@
 	)
 	(label "CLK_Intern_O.P"
 		(at 36.83 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2952,6 +2953,7 @@
 	)
 	(label "CLK_Intern_O.N"
 		(at 36.83 21.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -273,8 +273,6 @@
       "/Z2_BI8.C_N",
       "/Z2_BI8.D_P",
       "/Z2_BI8.D_N",
-      "unconnected-(U1-IN1-Pad1)",
-      "unconnected-(U1-IN1b-Pad2)",
       "Net-(C7-Pad2)",
       "/LHC_CLK/IN0_P",
       "unconnected-(U1-NC-Pad5)",

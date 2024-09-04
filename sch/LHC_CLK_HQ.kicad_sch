@@ -3848,6 +3848,24 @@
 		(uuid "20dff6f0-29fe-4288-abb5-880a4c092775")
 	)
 	(bus_entry
+		(at 227.33 130.81)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276b89be-896c-4afc-a1e9-aa65d8403260")
+	)
+	(bus_entry
+		(at 227.33 128.27)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2962dd34-dde0-4d86-b965-a1c97ec7f342")
+	)
+	(bus_entry
 		(at 227.33 59.69)
 		(size 2.54 -2.54)
 		(stroke
@@ -3972,24 +3990,6 @@
 			(type default)
 		)
 		(uuid "995bdd5e-8255-44ab-a727-c6a853934969")
-	)
-	(bus_entry
-		(at 227.33 130.81)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f9c7e5-519c-4fb9-acc0-959144e86237")
-	)
-	(bus_entry
-		(at 227.33 128.27)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5155253-c2d6-478f-af5b-47d681708eca")
 	)
 	(bus_entry
 		(at 227.33 97.79)
@@ -4175,16 +4175,6 @@
 		)
 		(uuid "10957d30-9508-4c09-85c4-41a9a82425cb")
 	)
-	(bus
-		(pts
-			(xy 229.87 125.73) (xy 229.87 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "116f3b42-8043-41ca-a8b9-c53e72028ed2")
-	)
 	(wire
 		(pts
 			(xy 229.87 158.75) (xy 229.87 138.43)
@@ -4214,16 +4204,6 @@
 			(type default)
 		)
 		(uuid "143f1f75-c755-49ff-8df4-ed854db65949")
-	)
-	(wire
-		(pts
-			(xy 198.12 128.27) (xy 227.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "145e354f-6684-4bc2-a1dd-dcc7389c735b")
 	)
 	(bus
 		(pts
@@ -5085,6 +5065,16 @@
 		)
 		(uuid "89686ce0-0666-4de9-90b0-f0fd7a043b10")
 	)
+	(wire
+		(pts
+			(xy 198.12 130.81) (xy 227.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ae9c2b-a570-48ce-8bb5-f77b60bf8266")
+	)
 	(bus
 		(pts
 			(xy 233.68 95.25) (xy 229.87 95.25)
@@ -5227,6 +5217,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 128.27) (xy 227.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28b9a2b-d472-4bd7-bfb4-b80d707e1fc1")
+	)
+	(wire
+		(pts
 			(xy 198.12 82.55) (xy 227.33 82.55)
 		)
 		(stroke
@@ -5304,6 +5304,16 @@
 			(type default)
 		)
 		(uuid "a6cbcda3-415e-4ded-8ee4-4e020b3b493e")
+	)
+	(bus
+		(pts
+			(xy 233.68 125.73) (xy 229.87 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73e20f0-4914-43ec-96f7-233aa3f296a3")
 	)
 	(bus
 		(pts
@@ -5747,16 +5757,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 130.81) (xy 227.33 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dee0b933-a349-48ad-8b12-c273fe5ea6db")
-	)
-	(wire
-		(pts
 			(xy 232.41 135.89) (xy 232.41 161.29)
 		)
 		(stroke
@@ -5774,6 +5774,16 @@
 			(type default)
 		)
 		(uuid "e0246516-8578-4a75-adcd-423302178e42")
+	)
+	(bus
+		(pts
+			(xy 229.87 125.73) (xy 229.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ffcd4f-832b-4b43-ad4b-23c4e2b1f362")
 	)
 	(bus
 		(pts
@@ -5944,16 +5954,6 @@
 			(type default)
 		)
 		(uuid "f4b7afea-cac2-499f-8ee7-3afd7dac3b16")
-	)
-	(bus
-		(pts
-			(xy 233.68 125.73) (xy 229.87 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f613e45d-aded-492b-88f3-ae5ae1b41c23")
 	)
 	(wire
 		(pts
@@ -6241,17 +6241,6 @@
 		)
 		(uuid "4598d3e5-9404-4448-b5c0-e12412141658")
 	)
-	(label "Z2_FI11.LHC_CLK_HQ_N"
-		(at 227.33 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e77c696-9051-4db1-ae4a-44f4bc27d006")
-	)
 	(label "Z2_FI10.LHC_CLK_HQ_N"
 		(at 227.33 123.19 180)
 		(fields_autoplaced yes)
@@ -6318,17 +6307,6 @@
 		)
 		(uuid "6985446d-38d8-400e-acfc-2d27de1cd14f")
 	)
-	(label "Z2_FI11.LHC_CLK_HQ_P"
-		(at 227.33 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "705e0797-d2b2-42bc-b224-dfe67af09a1b")
-	)
 	(label "Z2_FI3.LHC_CLK_HQ_N"
 		(at 227.33 69.85 180)
 		(fields_autoplaced yes)
@@ -6351,6 +6329,17 @@
 		)
 		(uuid "7b371b5d-9394-41d9-8663-3d05eed5feff")
 	)
+	(label "CLK_Intern_O.P"
+		(at 227.33 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b746f95-79f7-4578-8648-5ded70a06f9f")
+	)
 	(label "IN0_N"
 		(at 124.46 60.96 0)
 		(fields_autoplaced yes)
@@ -6372,6 +6361,17 @@
 			(justify right bottom)
 		)
 		(uuid "98b91ea7-0b16-4c7b-8260-c9d6019022f1")
+	)
+	(label "CLK_Intern_O.N"
+		(at 227.33 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0d3303e-ddb5-41ca-807a-5e9c027d7b75")
 	)
 	(label "IN3_P"
 		(at 124.46 81.28 0)
@@ -6541,6 +6541,19 @@
 		)
 		(uuid "36f39570-31e2-4ff8-9d44-4c91446fba32")
 	)
+	(hierarchical_label "CLK_Intern_O{P,N}"
+		(shape bidirectional)
+		(at 233.68 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 132 1)
+			)
+			(justify left)
+		)
+		(uuid "43d88d54-ff06-4c1c-995a-98de8c73713e")
+	)
 	(hierarchical_label "CLK_IN_P"
 		(shape input)
 		(at 25.4 21.59 180)
@@ -6588,18 +6601,6 @@
 			(justify left)
 		)
 		(uuid "75796f54-20b6-400e-990f-0caa259d6b54")
-	)
-	(hierarchical_label "Z2_FI11{CMS}"
-		(shape bidirectional)
-		(at 233.68 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "811fe148-1b9d-4718-b089-448c09f13486")
 	)
 	(hierarchical_label "SC_PLL{SI5395}"
 		(shape bidirectional)

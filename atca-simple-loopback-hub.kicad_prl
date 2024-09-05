@@ -402,7 +402,7 @@
       "Net-(J1B-TRCT4_2)",
       "Net-(J1D-TRCT1_4)"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -462,7 +462,7 @@
       36
     ],
     "visible_layers": "ffdffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",

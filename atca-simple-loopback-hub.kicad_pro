@@ -57,6 +57,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.6,
+          "width": 0.1
+        },
+        {
+          "gap": 0.115,
+          "via_gap": 0.6,
+          "width": 0.12
         }
       ],
       "drc_exclusions": [],
@@ -516,7 +526,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -533,34 +543,34 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.115,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.12,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "microstrip",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.245,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "stripline",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.21,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6

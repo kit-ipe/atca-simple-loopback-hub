@@ -6048,12 +6048,6 @@
 		(uuid "9caf5a48-1392-4a80-9d75-140b15fb94c7")
 	)
 	(junction
-		(at 120.65 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0be6f43-8eb5-43ae-aaa1-8f722bde1f20")
-	)
-	(junction
 		(at 232.41 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6082,6 +6076,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9766cc3-6a4b-4cfd-b22f-5e816abb753f")
+	)
+	(junction
+		(at 120.65 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ded4d0c3-630e-491d-b380-6faed4b6f888")
 	)
 	(junction
 		(at 210.82 96.52)
@@ -6417,6 +6417,16 @@
 		)
 		(uuid "216379cd-cc99-46bf-af8c-16b2c169f0fe")
 	)
+	(wire
+		(pts
+			(xy 119.38 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2241ed5f-f924-444a-88bd-80535a634e04")
+	)
 	(bus
 		(pts
 			(xy 116.84 40.64) (xy 116.84 43.18)
@@ -6556,16 +6566,6 @@
 			(type default)
 		)
 		(uuid "3f1c37d1-0dce-464e-af07-4c934141b222")
-	)
-	(wire
-		(pts
-			(xy 119.38 125.73) (xy 120.65 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "407a911c-535b-4851-9a35-c437e52da226")
 	)
 	(bus
 		(pts
@@ -7467,7 +7467,7 @@
 		(uuid "c7f6337d-4316-4ae5-a5a5-4b20ea37019d")
 	)
 	(label "SC_SFP+_2.MOD_ABS_2"
-		(at 120.65 125.73 0)
+		(at 121.92 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7489,7 +7489,7 @@
 		(uuid "49773f11-9696-4a32-8bfd-79d36da06797")
 	)
 	(label "SC_SFP+_2.TX_DISABLE_2"
-		(at 120.65 135.89 0)
+		(at 121.92 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7522,7 +7522,7 @@
 		(uuid "558426fa-4aed-4d8e-ab1c-1dc111c15bee")
 	)
 	(label "SC_SFP+_1.SDA"
-		(at 120.65 45.72 0)
+		(at 121.92 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7533,7 +7533,7 @@
 		(uuid "567eea4d-d879-435b-85b1-388dec913ab5")
 	)
 	(label "SC_SFP+_1.TX_DISABLE_1"
-		(at 120.65 60.96 0)
+		(at 121.92 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7577,7 +7577,7 @@
 		(uuid "6a64080a-a68e-40e2-ba84-645677eeac27")
 	)
 	(label "SC_SFP+_2.SDA"
-		(at 120.65 120.65 0)
+		(at 121.92 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7632,7 +7632,7 @@
 		(uuid "98bc062f-449a-4fac-b8d9-4fb6e488daaf")
 	)
 	(label "SC_SFP+_1.MOD_ABS_1"
-		(at 120.65 50.8 0)
+		(at 121.92 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7643,7 +7643,7 @@
 		(uuid "a2f81ba7-7bc2-47b3-bcba-f417728471a3")
 	)
 	(label "SC_SFP+_1.SCL"
-		(at 120.65 48.26 0)
+		(at 121.92 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7665,7 +7665,7 @@
 		(uuid "b32e2abd-acf7-424f-a39d-92f6843dc9ca")
 	)
 	(label "SC_SFP+_2.SCL"
-		(at 120.65 123.19 0)
+		(at 121.92 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

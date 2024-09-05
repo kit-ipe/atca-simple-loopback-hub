@@ -6035,6 +6035,18 @@
 		)
 		(uuid "ff3b1d05-3950-4645-9d78-99ffc5ebf3e6")
 	)
+	(rectangle
+		(start 199.39 46.99)
+		(end 203.2 124.46)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e422b12-0b0b-4a5f-bbb1-be0a2b428aea)
+	)
 	(text_box "NOTES:\n1) IN_SELL (I): Input Reference Select, pins are internally pulled low\n2) RSTb (I): Device Reset. This pin is internally pulled-up and can be left unconnected when not in use\n3) OEb (I): Output Enable. This pin disables all outputs when held high. This pin is internally pulled low and can be left unconnected when not in use.\n4) FINC (I): Step-up the output frequency of a selected output. This pin is internally pulled low and can be left unconnected when not in use.\n5) FDEC (I): Step-down the output frequency of a selected output. This pin is internally pulled low and can be left unconnected when not in use.\n6) INTRb (O): Interrupt, asserted low when a change in device status has occurred. It should be left unconnected when not in use.\n7) LOLb (O): Loss of Lock, indicates when the DSPLL is locked (high) or out-of-lock (low). It can be left unconnected when not in use\n8) I2C_SEL (I): I2C (I2C_SEL = 1) or SPI (I2C_SEL = 0). This pin is internally pulled up by a ~ 20 kΩ resistor to the voltage selected by the IO_VDD_SEL reg\n9) A1 (I): In I2C mode, this pin is open-drain and functions as the A1 address input pin. It does not have an internal pull-up or pull-down resistor. \n10) A0 (I): hardware controlled address A0 in I2C mode. This pin is internally pulled-up by a ~20 kΩ resistor and can be left unconnected when not in use.\n11) Power: 1V8 @ 260mA & 3V3 @ 130 + 30 * 12 = 490mA "
 		(exclude_from_sim no)
 		(at 12.7 166.37 0)
@@ -6053,6 +6065,26 @@
 			(justify left top)
 		)
 		(uuid "2d66eb26-3892-4fce-a338-7a7f2ef31233")
+	)
+	(text_box "P and N inverted"
+		(exclude_from_sim no)
+		(at 199.39 38.1 0)
+		(size 24.13 8.89)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a3cd3c3e-46a6-4589-b2f2-c996301ec418")
 	)
 	(text "I2C Address = 8'b1101_001X, 8'hD2, 7'h69"
 		(exclude_from_sim no)
@@ -6088,7 +6120,7 @@
 		(uuid "03d3ec23-621e-4c03-b697-804526f23b56")
 	)
 	(label "Z2_FI6.LHC_CLK_HQ_N"
-		(at 227.33 92.71 180)
+		(at 227.33 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6110,7 +6142,7 @@
 		(uuid "0c6639d7-b2ff-4b74-b175-87a6b958fa41")
 	)
 	(label "Z2_FI1.LHC_CLK_HQ_P"
-		(at 227.33 52.07 180)
+		(at 227.33 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6132,7 +6164,7 @@
 		(uuid "1c9c710c-e9a1-4203-9f62-79a74d669235")
 	)
 	(label "Z2_FI5.LHC_CLK_HQ_P"
-		(at 227.33 82.55 180)
+		(at 227.33 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6154,7 +6186,7 @@
 		(uuid "2c8e7cdc-460d-4434-b714-484f348486c8")
 	)
 	(label "Z2_FI3.LHC_CLK_HQ_P"
-		(at 227.33 67.31 180)
+		(at 227.33 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6165,7 +6197,7 @@
 		(uuid "31732540-17ed-4643-88c8-fd2463979596")
 	)
 	(label "Z2_FI9.LHC_CLK_HQ_P"
-		(at 227.33 113.03 180)
+		(at 227.33 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6176,7 +6208,7 @@
 		(uuid "36254902-3da9-45f6-ad7d-f8942a3901b7")
 	)
 	(label "Z2_FI10.LHC_CLK_HQ_P"
-		(at 227.33 120.65 180)
+		(at 227.33 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6209,7 +6241,7 @@
 		(uuid "3ea9a982-5d2a-422c-8bf1-54c3de7b404e")
 	)
 	(label "Z2_FI7.LHC_CLK_HQ_P"
-		(at 227.33 97.79 180)
+		(at 227.33 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6231,7 +6263,7 @@
 		(uuid "440e1bde-16ce-480b-9a2e-8f26f5a1d54b")
 	)
 	(label "Z2_FI1.LHC_CLK_HQ_N"
-		(at 227.33 54.61 180)
+		(at 227.33 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6242,7 +6274,7 @@
 		(uuid "4598d3e5-9404-4448-b5c0-e12412141658")
 	)
 	(label "Z2_FI10.LHC_CLK_HQ_N"
-		(at 227.33 123.19 180)
+		(at 227.33 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6286,7 +6318,7 @@
 		(uuid "5c37e4b7-ba8a-41c7-9d62-8ec6b730dceb")
 	)
 	(label "Z2_FI4.LHC_CLK_HQ_N"
-		(at 227.33 77.47 180)
+		(at 227.33 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6308,7 +6340,7 @@
 		(uuid "6985446d-38d8-400e-acfc-2d27de1cd14f")
 	)
 	(label "Z2_FI3.LHC_CLK_HQ_N"
-		(at 227.33 69.85 180)
+		(at 227.33 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6319,7 +6351,7 @@
 		(uuid "794659e8-a55e-4556-87f8-8e880ac7c07f")
 	)
 	(label "Z2_FI5.LHC_CLK_HQ_N"
-		(at 227.33 85.09 180)
+		(at 227.33 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6418,7 +6450,7 @@
 		(uuid "c6d7aced-3698-4b71-928a-46dcdb78bdc8")
 	)
 	(label "Z2_FI4.LHC_CLK_HQ_P"
-		(at 227.33 74.93 180)
+		(at 227.33 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6429,7 +6461,7 @@
 		(uuid "cadbb270-3bee-4663-9049-3b1d5d2609d9")
 	)
 	(label "Z2_FI2.LHC_CLK_HQ_N"
-		(at 227.33 62.23 180)
+		(at 227.33 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6440,7 +6472,7 @@
 		(uuid "d3012146-d7cd-4177-acb9-2414645f1f04")
 	)
 	(label "Z2_FI9.LHC_CLK_HQ_N"
-		(at 227.33 115.57 180)
+		(at 227.33 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6451,7 +6483,7 @@
 		(uuid "dbbc2d5d-0414-46fe-ab6f-17a5bc16c297")
 	)
 	(label "Z2_FI6.LHC_CLK_HQ_P"
-		(at 227.33 90.17 180)
+		(at 227.33 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6462,7 +6494,7 @@
 		(uuid "eb3191f1-f8f1-4481-b0cb-367596f0bc0f")
 	)
 	(label "Z2_FI7.LHC_CLK_HQ_N"
-		(at 227.33 100.33 180)
+		(at 227.33 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6473,7 +6505,7 @@
 		(uuid "ef9be85b-fd7a-4930-8ebb-657993866311")
 	)
 	(label "Z2_FI2.LHC_CLK_HQ_P"
-		(at 227.33 59.69 180)
+		(at 227.33 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6484,7 +6516,7 @@
 		(uuid "f505aa68-fb6b-4767-b52e-1a72dd34fdcf")
 	)
 	(label "Z2_FI8.LHC_CLK_HQ_N"
-		(at 227.33 107.95 180)
+		(at 227.33 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6495,7 +6527,7 @@
 		(uuid "f7326c34-43fd-44e1-9b3c-3b536970987e")
 	)
 	(label "Z2_FI8.LHC_CLK_HQ_P"
-		(at 227.33 105.41 180)
+		(at 227.33 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

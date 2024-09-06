@@ -1853,6 +1853,79 @@
 		(uuid "0976014f-83e1-4db3-a81e-fb1df3a2a4ce")
 	)
 	(symbol
+		(lib_id "project:MountingHole")
+		(at 144.78 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09295da7-29c6-4caf-8fcd-9883f9330891")
+		(property "Reference" "H7"
+			(at 147.32 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project:NPTH_2.7_7_Keepout"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "stock" "PCB"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KIT_Mechanical:FrontPanel")
 		(at 140.97 76.2 0)
 		(unit 1)
@@ -2214,7 +2287,7 @@
 	)
 	(symbol
 		(lib_id "project:MountingHole")
-		(at 146.05 64.77 0)
+		(at 163.83 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2223,7 +2296,7 @@
 		(fields_autoplaced yes)
 		(uuid "43e7a63e-ea72-4c45-96fa-164ccbabad28")
 		(property "Reference" "H3"
-			(at 148.59 63.4999 0)
+			(at 166.37 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2305,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 148.59 66.0399 0)
+			(at 166.37 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2314,7 @@
 			)
 		)
 		(property "Footprint" "project:NPTH_2.7_7_Keepout"
-			(at 146.05 64.77 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 64.77 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 64.77 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2341,7 @@
 			)
 		)
 		(property "stock" "PCB"
-			(at 146.05 64.77 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2451,7 @@
 	)
 	(symbol
 		(lib_id "project:MountingHole")
-		(at 146.05 97.79 0)
+		(at 163.83 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2387,7 +2460,7 @@
 		(fields_autoplaced yes)
 		(uuid "658c77f3-0acc-4bc8-8fe0-a016c657068e")
 		(property "Reference" "H4"
-			(at 148.59 96.5199 0)
+			(at 166.37 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2469,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 148.59 99.0599 0)
+			(at 166.37 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2478,7 @@
 			)
 		)
 		(property "Footprint" "project:NPTH_2.7_7_Keepout"
-			(at 146.05 97.79 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 97.79 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 97.79 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2505,7 @@
 			)
 		)
 		(property "stock" "PCB"
-			(at 146.05 97.79 0)
+			(at 163.83 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2633,7 @@
 	)
 	(symbol
 		(lib_id "project:MountingHole")
-		(at 166.37 97.79 0)
+		(at 163.83 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2569,7 +2642,7 @@
 		(fields_autoplaced yes)
 		(uuid "85985a0e-fd94-4b12-9fb9-71fddae45c2f")
 		(property "Reference" "H5"
-			(at 168.91 96.5199 0)
+			(at 166.37 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2651,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 168.91 99.0599 0)
+			(at 166.37 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2660,7 @@
 			)
 		)
 		(property "Footprint" "project:NPTH_2.7_7_Keepout"
-			(at 166.37 97.79 0)
+			(at 163.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 97.79 0)
+			(at 163.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 97.79 0)
+			(at 163.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2687,7 @@
 			)
 		)
 		(property "stock" "PCB"
-			(at 166.37 97.79 0)
+			(at 163.83 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,6 +3152,79 @@
 			(project "atca-simple-loopback-hub"
 				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "project:MountingHole")
+		(at 144.78 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e79fd023-c90f-408d-9ce8-33d184712487")
+		(property "Reference" "H6"
+			(at 147.32 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project:NPTH_2.7_7_Keepout"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "stock" "PCB"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "H6")
 					(unit 1)
 				)
 			)

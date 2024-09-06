@@ -1714,10 +1714,6 @@
 		(at 171.45 66.04)
 		(uuid "5d86b5d2-2085-43eb-b185-1b4fe899cb51")
 	)
-	(no_connect
-		(at 135.89 55.88)
-		(uuid "f170a82c-a1bb-474a-ad1a-d548a316cf3b")
-	)
 	(bus_entry
 		(at 64.77 101.6)
 		(size -2.54 2.54)
@@ -1972,6 +1968,16 @@
 			(type default)
 		)
 		(uuid "04934b8d-f2cb-41f1-8e86-5f8785c653f9")
+	)
+	(wire
+		(pts
+			(xy 86.36 55.88) (xy 135.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bf776e-2c9f-4fb2-9826-42af4ddd70b6")
 	)
 	(bus
 		(pts
@@ -2475,7 +2481,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 44.45) (xy 198.12 44.45)
+			(xy 207.01 44.45) (xy 215.9 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2765,6 +2771,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 46.99) (xy 86.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe74b9b-d4fe-4f76-af8a-28ffb47a6280")
+	)
+	(wire
+		(pts
 			(xy 207.01 44.45) (xy 207.01 58.42)
 		)
 		(stroke
@@ -2992,6 +3008,16 @@
 			(type default)
 		)
 		(uuid "ee34dcfd-e510-4c53-b9a2-5a505cd6b0ae")
+	)
+	(wire
+		(pts
+			(xy 58.42 46.99) (xy 86.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef554af1-a2d4-4051-8448-b1828d1bf3d4")
 	)
 	(wire
 		(pts
@@ -3532,6 +3558,18 @@
 			(justify right)
 		)
 		(uuid "871937c2-1fa3-4546-9de0-e8ca120fdf9e")
+	)
+	(hierarchical_label "FP_HANDLE"
+		(shape output)
+		(at 58.42 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9777f23b-916d-4058-8ffe-ce149731f60f")
 	)
 	(hierarchical_label "SC_PLL_1{SI5395}"
 		(shape bidirectional)

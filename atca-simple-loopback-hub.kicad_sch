@@ -1309,6 +1309,17 @@
 		)
 		(uuid "1a718d42-a90b-41e3-84dd-b38ef619432d")
 	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 22.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "1bf0a7a1-cc4f-4941-bf2b-c17eee128657")
+	)
 	(bus
 		(pts
 			(xy 127 52.07) (xy 127 58.42)
@@ -1445,7 +1456,7 @@
 	)
 	(bus
 		(pts
-			(xy 163.83 172.72) (xy 163.83 135.89)
+			(xy 163.83 170.18) (xy 163.83 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2131,7 +2142,7 @@
 	)
 	(bus
 		(pts
-			(xy 33.02 106.68) (xy 33.02 172.72)
+			(xy 26.67 106.68) (xy 26.67 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2171,6 +2182,17 @@
 			(color 0 194 194 1)
 		)
 		(uuid "97e6c0d4-a195-4151-a075-7a70ad72806f")
+	)
+	(wire
+		(pts
+			(xy 22.86 173.99) (xy 40.64 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "97e7d216-3afc-48f8-a2d6-5fadd8d838f3")
 	)
 	(bus
 		(pts
@@ -2279,7 +2301,7 @@
 	)
 	(bus
 		(pts
-			(xy 33.02 172.72) (xy 163.83 172.72)
+			(xy 26.67 170.18) (xy 163.83 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2605,6 +2627,17 @@
 		)
 		(uuid "e053176a-089b-49c8-95bc-973cbe137c27")
 	)
+	(wire
+		(pts
+			(xy 40.64 180.34) (xy 38.1 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "e0ff7e05-5ea9-400f-9ae1-e9b9e9db929c")
+	)
 	(bus
 		(pts
 			(xy 124.46 40.64) (xy 140.97 40.64)
@@ -2711,6 +2744,17 @@
 		)
 		(uuid "f038084f-29be-4ebc-afe3-ff5c5eca319f")
 	)
+	(wire
+		(pts
+			(xy 40.64 173.99) (xy 40.64 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "f1398d4c-ff4c-4a68-b7ad-35ba256fd173")
+	)
 	(bus
 		(pts
 			(xy 124.46 71.12) (xy 140.97 71.12)
@@ -2763,9 +2807,20 @@
 		)
 		(uuid "f9d599b5-dec2-483e-b390-23efec331628")
 	)
+	(wire
+		(pts
+			(xy 22.86 95.25) (xy 22.86 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 194 1)
+		)
+		(uuid "fa061a8a-2cd8-4bcb-9374-eacdd2e589ec")
+	)
 	(bus
 		(pts
-			(xy 41.91 106.68) (xy 33.02 106.68)
+			(xy 35.56 106.68) (xy 26.67 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5612,8 +5667,8 @@
 		)
 	)
 	(sheet
-		(at 41.91 86.36)
-		(size 29.21 22.86)
+		(at 35.56 86.36)
+		(size 35.56 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5624,7 +5679,7 @@
 		)
 		(uuid "c79f41e5-5a92-4bf6-953e-6b70b906244f")
 		(property "Sheetname" "rpi-pico"
-			(at 41.91 85.6484 0)
+			(at 35.56 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5688,7 @@
 			)
 		)
 		(property "Sheetfile" "sch/rpi-pico.kicad_sch"
-			(at 41.91 109.8046 0)
+			(at 35.56 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5717,7 @@
 			(uuid "652777ef-bfae-4b5d-972d-4aefee17a55f")
 		)
 		(pin "SC_PIM{PIM400}" bidirectional
-			(at 41.91 106.68 180)
+			(at 35.56 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,6 +5745,16 @@
 				(justify right)
 			)
 			(uuid "cce8afc4-f541-48fd-9083-01a8986e6ae3")
+		)
+		(pin "FP_HANDLE" output
+			(at 35.56 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47a773cf-59f8-43a8-b1be-ae55c55b7403")
 		)
 		(instances
 			(project "atca-simple-loopback-hub"
@@ -6010,6 +6075,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "FP_HANDLE" output
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42ff0e30-2897-4f36-906c-4a8de5ddae67")
 		)
 		(instances
 			(project "atca-simple-loopback-hub"

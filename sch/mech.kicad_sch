@@ -2819,12 +2819,12 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 161.29 142.0368 0)
+			(at 156.21 142.0367 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3315,11 +3315,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 144.78 0)
+			(at 168.91 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

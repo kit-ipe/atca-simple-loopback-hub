@@ -636,6 +636,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -1809,6 +1888,19 @@
 		)
 		(uuid "fa246bdb-85bd-4d32-a6f9-3d756d417e14")
 	)
+	(text "Fiducials"
+		(exclude_from_sim no)
+		(at 140.97 173.99 0)
+		(effects
+			(font
+				(size 2.4892 2.4892)
+				(thickness 0.4978)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3335cf5-06eb-4994-a0c1-e49fa8b58a91")
+	)
 	(text "Insert: 3V3 -> GND\nRemove: GND -> 3V3"
 		(exclude_from_sim no)
 		(at 106.68 146.05 0)
@@ -1928,6 +2020,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 146.05 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a0b6704-bbc2-46d5-9e82-c6c2506adfda")
+		(property "Reference" "FID4"
+			(at 148.209 185.5216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 148.209 187.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 146.05 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KIT_Mechanical:FrontPanel")
 		(at 140.97 76.2 0)
 		(unit 1)
@@ -1955,13 +2110,12 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KIT_Mechanical:FrontPanel"
+		(property "Footprint" "project:FrontPanel"
 			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -2387,7 +2541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KIT_Mechanical:81-301-00"
+		(property "Footprint" "project:81-301-00"
 			(at 102.616 124.46 0)
 			(effects
 				(font
@@ -2446,6 +2600,69 @@
 			(project "atca-simple-loopback-hub"
 				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 158.75 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd711b3-b0e6-4d1a-a2d0-32fb7649bea3")
+		(property "Reference" "FID6"
+			(at 160.909 185.5216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 160.909 187.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "FID6")
 					(unit 1)
 				)
 			)
@@ -2896,7 +3113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KIT_Connector:Molex_53046-0310"
+		(property "Footprint" "project:Molex_53046-0310"
 			(at 102.87 133.35 0)
 			(effects
 				(font
@@ -2973,6 +3190,69 @@
 			(project "atca-simple-loopback-hub"
 				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 146.05 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf6e50d8-e3d5-4f11-b5e4-5c5b7a08fd50")
+		(property "Reference" "FID3"
+			(at 148.209 180.4416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 148.209 182.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -3088,6 +3368,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 158.75 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d645dc17-19d2-4c14-90b3-865ac26688ea")
+		(property "Reference" "FID5"
+			(at 160.909 180.4416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 160.909 182.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "FID5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "project:FBA_ESD_strip_bottom")
 		(at 162.56 123.19 0)
 		(unit 1)
@@ -3154,6 +3497,69 @@
 			(project "atca-simple-loopback-hub"
 				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 133.35 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e021a2d0-64cb-4fcc-a9ec-286dd9ea8199")
+		(property "Reference" "FID2"
+			(at 135.509 185.5216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 135.509 187.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 133.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -3293,6 +3699,69 @@
 			(project "atca-simple-loopback-hub"
 				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 133.35 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebaa1642-3127-495b-b1c2-5e3b666fff87")
+		(property "Reference" "FID1"
+			(at 135.509 180.4416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 135.509 182.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "atca-simple-loopback-hub"
+				(path "/b1bf14e0-f6d2-45a7-b67f-6500a354b7ad/f77876dd-ebdc-4e20-8c96-1773c09aca35"
+					(reference "FID1")
 					(unit 1)
 				)
 			)

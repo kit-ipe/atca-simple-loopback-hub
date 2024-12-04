@@ -6,13 +6,15 @@
 	(paper "A4")
 	(title_block
 		(title "ATCA Simple Loopback HUB")
-		(date "2024-09-04")
+		(date "2024-09-18")
 		(rev "1.0")
 		(company "Karlsruhe Institute of Technology (KIT)")
 		(comment 1 "Institute for Data Processing and Electronics (IPE)")
 		(comment 2 "Luis Ardila-Perez")
-		(comment 3 "IPE-380-06-V1")
+		(comment 3 "IPE-380-09-V1")
 		(comment 4 "Licensed under CERN-OHL-P-2.0")
+		(comment 5 "https://github.com/kit-ipe/atca-simple-loopback-hub")
+		(comment 6 "https://gitlab.cern.ch/kit-ipe/hardware/kicad-pcbs/atca-simple-loopback-hub")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"

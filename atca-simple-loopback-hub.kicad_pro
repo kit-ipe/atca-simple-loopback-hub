@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.4
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -69,9 +69,7 @@
           "width": 0.12
         }
       ],
-      "drc_exclusions": [
-        "items_not_allowed|137899998|141760005|3d12299d-c787-4e06-b392-0b68f742425f|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -546,7 +544,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.6,
+        "clearance": 0.7,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -621,43 +619,43 @@
         "pattern": "+3V3_SW"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/-48V"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/-48V_RET"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/PIM400_-48V_A"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/PIM400_-48V_B"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/PIM400_VRET_A"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/PIM400_VRET_B"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_-48V_A"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_-48V_B"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_VRTN_A"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_VRTN_B"
       },
       {
@@ -665,11 +663,11 @@
         "pattern": "GNDPWR"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_EARLY_A"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_EARLY_B"
       },
       {
@@ -1481,7 +1479,7 @@
         "pattern": "FABRIC_6.MB_TX3-"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/V_HLDP"
       },
       {
@@ -1617,19 +1615,19 @@
         "pattern": "+12V"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/PIM400_EN_A"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/PIM400_EN_B"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_EN_A"
       },
       {
-        "netclass": "Default",
+        "netclass": "-48V",
         "pattern": "/ATCA_Z1/Z1_EN_B"
       },
       {
@@ -1647,6 +1645,18 @@
       {
         "netclass": "Default",
         "pattern": "Z3_SATA.TX_P"
+      },
+      {
+        "netclass": "-48V",
+        "pattern": "/ATCA_Z1/BUS_N"
+      },
+      {
+        "netclass": "-48V",
+        "pattern": "/ATCA_Z1/BUS_P"
+      },
+      {
+        "netclass": "-48V",
+        "pattern": "/ATCA_Z1/R_HLDP"
       }
     ]
   },
@@ -1656,7 +1666,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "bom/pos/",
       "specctra_dsn": "",
       "step": "fba_template.step",
       "svg": "",
@@ -1716,11 +1726,113 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RS",
+          "name": "RS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey#",
+          "name": "digikey#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "info",
+          "name": "info",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manf",
+          "name": "manf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manf#",
+          "name": "manf#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mouser#",
+          "name": "mouser#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rs#",
+          "name": "rs#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "stock",
+          "name": "stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage",
+          "name": "voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
